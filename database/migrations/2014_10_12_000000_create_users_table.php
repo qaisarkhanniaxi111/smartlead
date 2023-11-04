@@ -16,8 +16,12 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('google_token')->nullable();
-            $table->bigInteger('google_id')->nullable();
+            $table->text('google_id')->nullable();
             $table->string('google_refresh_token')->nullable();
+
+            $table->text('webhook_url')->nullable();
+            $table->text('smartlead_key')->nullable();
+
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();

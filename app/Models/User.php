@@ -23,7 +23,9 @@ class User extends Authenticatable
         'password',
         'google_id',
         'google_token',
-        'google_refresh_token'
+        'google_refresh_token',
+        'webhook_url',
+        'smartlead_key'
     ];
 
     /**

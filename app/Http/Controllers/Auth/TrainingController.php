@@ -46,6 +46,8 @@ class TrainingController extends Controller
 
             $this->updateLinks($user, $request);
 
+            session()->flash('alert-success', 'Data saved successfully');
+
             DB::commit();
 
         }
@@ -54,7 +56,7 @@ class TrainingController extends Controller
             return back()->withErrors($ex->getMessage());
         }
 
-        return 'done';
+        return back();
 
     }
 

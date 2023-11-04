@@ -25,7 +25,7 @@ use App\Http\Controllers\Auth\SocialLoginController;
 Route::redirect('/', 'login');
 
 Auth::routes([
-    'register' => false
+    // 'register' => false
 ]);
 
 Route::prefix('auth')->as('auth.')->middleware(['auth'])->group(function() {
@@ -60,7 +60,6 @@ Route::prefix('auth')->as('auth.')->middleware(['auth'])->group(function() {
         Route::patch('/update', 'updateTraining')->name('update');
         Route::delete('/response-training/delete/{id}', 'deleteResponseTraining')->name('response-training.delete');
         Route::delete('/links/delete/{id}', 'deleteLinks')->name('links.delete');
-        // Route::post('update/{id}', 'updateAccount')->name('update');
     });
 
     Route::controller(OpenAIController::class)->group(function() {
@@ -70,37 +69,14 @@ Route::prefix('auth')->as('auth.')->middleware(['auth'])->group(function() {
 
 });
 
-Route::get('clear', function() {
-
-    session()->forget('access_token');
-
-    return 'cleared';
-
-});
-
-// Route::get('google/integration', [SocialLoginController::class, 'openGoogleIntegrationPage'])->name('google.integration');
 Route::get('google/login', [SocialLoginController::class, 'redirectToGoogle'])->name('google.login')->middleware('auth');
 Route::get('google/redirect', [SocialLoginController::class, 'redirectGoogleAfterLogin'])->name('google.redirect');
-Route::get('google/generate-refresh-token', [SocialLoginController::class, 'generateRefreshToken'])->name('google.generate.generate-refresh-token');
 
 
-Route::get('webhook', [AutomationController::class, 'replyToReceivedMail'])->name('automation.email.reply');
+Route::prefix('webhook')->as('webhook.')->controller(AutomationController::class)->group(function() {
 
+    Route::get('/', 'replyToReceivedMail')->name('automation.email.reply');
 
-Route::get('/home', function() {
+    Route::post('generate/link', 'generateWebhookLink')->name('generate.link')->middleware('auth');
 
-
-    if (session()->has('access_token')) {
-
-        dd('have access token');
-
-    }
-
-    else {
-
-        return to_route('google.generate.generate-refresh-token');
-        dd('do not have');
-
-    }
-
-})->name('user.home');
+});

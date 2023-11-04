@@ -65,6 +65,18 @@
 							<a class="sidenav-item-link" href="{{ route('auth.billings.index') }}"> <i class="mdi mdi-account"></i> <span class="nav-text">Billing</span> </a>
 						</li>
 
+                        <li class="">
+							<a class="sidenav-item-link" href="{{ route('webhook.automation.email.reply', ['request_type' => 'information-request']) }}"> <i class="mdi mdi-account"></i> <span class="nav-text">Information webhook</span> </a>
+						</li>
+
+                        <li class="">
+							<a class="sidenav-item-link" href="{{ route('webhook.automation.email.reply', ['request_type' => 'specific-date']) }}"> <i class="mdi mdi-account"></i> <span class="nav-text">Specific date webhook</span> </a>
+						</li>
+
+                        <li class="">
+							<a class="sidenav-item-link" href="{{ route('webhook.automation.email.reply', ['request_type' => 'no-date']) }}"> <i class="mdi mdi-account"></i> <span class="nav-text">No date webhook</span> </a>
+						</li>
+
 
                         {{-- <li class="{{ request()->is('admin/notes') ? 'active': '' }}">
 							<a class="sidenav-item-link" href="{{ route('admin.notes.index') }}"> <i class="mdi mdi-map-marker"></i> <span class="nav-text">Notes</span> </a>

@@ -1,0 +1,42 @@
+{
+  "stats_id": "cb79c0e6-a979-484c-ab36-777180de8ac0",
+  "stats_thread_id": 2740786,
+  "from_email": "miles@tryhellogrowth.com",
+  "subject": "Hi Hadayat",
+  "sent_message_body": "<div>Hi Hadayat!</div><div><br></div><div>Test test, pitch.</div><div><br></div><div>Mind if I send some more information?</div><div><br></div><div>Miles</div>",
+  "sent_message": {
+    "message_id": "<sw-cb79c0e6-a979-484c-ab36-777180de8ac0@tryhellogrowth.com>",
+    "html": "<div>Hi Hadayat!</div><div><br></div><div>Test test, pitch.</div><div><br></div><div>Mind if I send some more information?</div><div><br></div><div>Miles</div>",
+    "text": "Hi Hadayat!\n\n\nTest test, pitch.\n\n\nMind if I send some more information?\n\n\nMiles",
+    "time": "2023-10-05T06:01:24.973Z"
+  },
+  "to_email": "hadiniazi801@gmail.com",
+  "to_name": "Hadayat ",
+  "time_replied": "2023-10-31T07:05:25+00:00",
+  "event_timestamp": "2023-10-31T07:05:25+00:00",
+  "reply_body": "<div dir=\"ltr\">Once more at 31-10-2023 12:05pm</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 31, 2023 at 11:18\u202fAM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat Niazi is testing it on 31-10-2023 11:18am according to gmt+5 timezone.</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 31, 2023 at 9:49\u202fAM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat is replying for testing</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 18, 2023 at 12:30\u202fPM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Once more</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 18, 2023 at 12:29\u202fPM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat is replying back again for testing</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 5, 2023 at 1:29\u202fPM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat is replying back.</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 5, 2023 at 11:01\u202fAM Miles Cole &lt;<a href=\"mailto:miles@tryhellogrowth.com\" target=\"_blank\">miles@tryhellogrowth.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><u></u>\r\n  \r\n  \r\n    \r\n    \r\n     \r\n      \r\n    \r\n  \r\n  \r\n  <div>\r\n  <div>Hi Hadayat!</div><div><br></div><div>Test test, pitch.</div><div><br></div><div>Mind if I send some more information?</div><div><br></div><div>Miles</div><img src=\"http://ismart.tryhellogrowth.com/image?messageId=%3Csw-cb79c0e6-a979-484c-ab36-777180de8ac0@tryhellogrowth.com%3E\" alt=\"\" title=\"\" style=\"display: none;\" width=\"1\" height=\"1\">\r\n  </div>\r\n  \r\n  \r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n",
+  "reply_message": {
+    "message_id": "<CAFEB4d1mVuc=26kkoBBP0D6_=0e6SuigL1N+Opz8M1O36srxXQ@mail.gmail.com>",
+    "html": "<div dir=\"ltr\">Once more at 31-10-2023 12:05pm</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 31, 2023 at 11:18\u202fAM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat Niazi is testing it on 31-10-2023 11:18am according to gmt+5 timezone.</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 31, 2023 at 9:49\u202fAM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat is replying for testing</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 18, 2023 at 12:30\u202fPM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Once more</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 18, 2023 at 12:29\u202fPM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat is replying back again for testing</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 5, 2023 at 1:29\u202fPM Hadayat Niazi &lt;<a href=\"mailto:hadiniazi801@gmail.com\" target=\"_blank\">hadiniazi801@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"ltr\">Hadayat is replying back.</div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 5, 2023 at 11:01\u202fAM Miles Cole &lt;<a href=\"mailto:miles@tryhellogrowth.com\" target=\"_blank\">miles@tryhellogrowth.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><u></u>\r\n  \r\n  \r\n    \r\n    \r\n     \r\n      \r\n    \r\n  \r\n  \r\n  <div>\r\n  <div>Hi Hadayat!</div><div><br></div><div>Test test, pitch.</div><div><br></div><div>Mind if I send some more information?</div><div><br></div><div>Miles</div><img src=\"http://ismart.tryhellogrowth.com/image?messageId=%3Csw-cb79c0e6-a979-484c-ab36-777180de8ac0@tryhellogrowth.com%3E\" alt=\"\" title=\"\" style=\"display: none;\" width=\"1\" height=\"1\">\r\n  </div>\r\n  \r\n  \r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n",
+    "text": "Once more at 31-10-2023 12:05pm\n",
+    "time": "2023-10-31T07:05:25+00:00"
+  },
+  "message_id": "<CAFEB4d1mVuc=26kkoBBP0D6_=0e6SuigL1N+Opz8M1O36srxXQ@mail.gmail.com>",
+  "preview_text": "Once more at 31-10-2023 12:05pm\n",
+  "campaign_name": "TEST AUTOMATION CAMPAIGN",
+  "campaign_id": 103603,
+  "campaign_status": "COMPLETED",
+  "client_id": null,
+  "sequence_number": 1,
+  "secret_key": "b367a8a2-4ec1-40c1-926d-ef6a1b7c439b",
+  "app_url": "https://app.smartlead.ai/app/master-inbox?leadMap=136977334",
+  "ui_master_inbox_link": "https://app.smartlead.ai/app/master-inbox?leadMap=136977334",
+  "description": "hadiniazi801@gmail.com replied to Thread Email 1 for campaign - TEST AUTOMATION CAMPAIGN",
+  "metadata": {
+    "webhook_created_at": "2023-10-05T05:59:44.829Z"
+  },
+  "webhook_url": "https://webhook.site/0a772ee0-1d7a-48a8-9305-f4ee8aa30992",
+  "webhook_id": 63107,
+  "webhook_name": "Test SmartLead Gmail Automation",
+  "event_type": "EMAIL_REPLY"
+}

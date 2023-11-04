@@ -26,20 +26,23 @@
                     </div>
                 @endif
 
-              <form method="post" action="#">
+              <form method="post" action="{{ route('auth.accounts.update', $user ? $user->id: null) }}">
                 @csrf
                 <div class="row mb-2">
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <label for="firstName">API key</label>
-                      <input type="text" name="api_key" value="{{ old('api_key', $user ? $user->api_key: '') }}" class="form-control" placeholder="1R0UCYTYin8Ab1K5VfAZjZu">
+                      <label for="firstName">SmartLead key</label>
+                      <input type="text" name="smartlead_key" value="{{ old('smartlead_key', $user ? $user->smartlead_key: '') }}" id="input-class" class="form-control" placeholder="1R0UCYTYin8Ab1K5VfAZjZu">
                     </div>
                   </div>
 
                   <div class="col-6">
                     <div class="form-group">
                         <label for="newPassword">Webhook Url</label>
-                        <input type="text" name="webhook_url" class="form-control" placeholder="https:/smartlead.com?user=32dekk5" autocomplete="off">
+                        <div id="webhook_parent_div">
+                            <input type="text" name="webhook_url" value="{{ old('webhook_url', $user ? $user->webhook_url: '') }}" id="input-class" class="form-control mr-1 webhook-uri-input" placeholder="Click button to generate url" autocomplete="off" readonly>
+                            <button id="webhook-uri-button" class="btn btn-primary">Create URL</button>
+                        </div>
                     </div>
                   </div>
 
@@ -65,4 +68,45 @@
       </div>
     </div>
   </div>
+@endsection
+
+@section('scripts')
+<script>
+    $(document).ready(function() {
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+        $('#webhook-uri-button').click(function(e) {
+
+            e.preventDefault();
+
+            $.ajax({
+                url: "{{ route('webhook.generate.link') }}",
+                type: "POST",
+                dataType: 'json',
+                success: function (response) {
+                    console.log(response)
+                    if (response.webhook_link) {
+                        $('.webhook-uri-input').val(response.webhook_link);
+                    }
+
+                },
+                error: function (data) {
+                    if(data.responseJSON.error){
+                        toastr["error"](data.responseJSON.error);
+                    }
+                    else {
+                        toastr["error"]("Something went wrong, please refresh the webpage and try again. If still problem persists contact with administrator");
+                    }
+                }
+            });
+
+        });
+
+    });
+</script>
 @endsection

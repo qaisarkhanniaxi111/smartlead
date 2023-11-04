@@ -52,42 +52,12 @@ class SocialLoginController extends Controller
             }
             else
             {
-                return back()->withErrors('Unable to connect the google account please refresh the webpage and try again. If still problem persists contact with administrator.');
+                return to_route('auth.accounts.edit')->withErrors('The app account and Google account do not match, Please log in with the same Google account that you are connecting with our app. If the problem persists, please contact the administrator.');
             }
 
         } catch (\Exception $e) {
-            return back()->withErrors($e->getMessage());
+            return to_route('auth.accounts.edit')->withErrors('Failed to complete the process, due to this error: '.$e->getMessage());
         }
     }
 
-    // public function generateAccessTokenFromRefreshToken($email)
-    // {
-    //     $user = User::where('email', $email)->first();
-
-    //     if (! $user) {
-
-    //         return false;
-
-    //     }
-
-    //     $refreshToken = $user->google_refresh_token;
-
-    //     // Initialize the Google API Client
-    //     $client = new Client();
-    //     $client->setClientId(config('services.google.client_id'));
-    //     $client->setClientSecret(config('services.google.client_secret'));
-
-    //     // Set the refresh token
-    //     // $accessToken = ['access_token' => $user->google_token, 'refresh_token' => $refreshToken];
-    //     // $client->setAccessToken($accessToken);
-    //     $client->refreshToken($refreshToken);
-
-
-    //     $client->fetchAccessTokenWithRefreshToken();
-
-    //     $accessToken = $client->getAccessToken()['access_token'];
-
-    //     return $accessToken;
-
-    // }
 }

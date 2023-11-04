@@ -2,136 +2,27 @@
     color: red;
 }
 
-/* ================================================================ */
-/* ================================================================== */
-/* -==================================================chat screen */
-.chat-area {
-    background-color: white;
-    height: calc(100vh - 110px);
-    position: relative;
-    /* min-height: 100vh; */
-    /* height:calc(100% - 30px) */
-
-  }
-
-  .chat-messages {
-    height: calc(100% - 90px);
-    overflow-y: scroll;
-    padding: 20px 10px;
-  }
-
-  .send-message {
-    width: 100%;
-    background-color: #FAFFFB;
+#webhook_parent_div {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 10px 10px;
-  }
+}
 
-  .send-message-icon {
-    background-color: #19C37D;
-    padding: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-  }
+#webhook-uri-button {
+    min-width: 160px;
+}
 
-  .send-message-icon svg {
-    fill: white;
-    height: 20px;
-    width: 20px;
-  }
+#input-class {
+    border-style: solid;
+    border-color: black;
+}
 
-  .send-message-text {
-    margin-left: 10px;
-  }
+input[type=text]:focus {
+    border: 1px solid black;
+}
 
-  .recieved-message {
-    width: 100%;
-    background-color: #F8F8F8;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 10px 10px;
-  }
+input[type=number]:focus {
+    border: 1px solid black;
+}
 
-  .recieved-message-icon {
-    background-color: #9E6DE0;
-    padding: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-  }
-
-  .recieved-message-icon svg {
-    fill: white;
-    height: 20px;
-    width: 20px;
-  }
-
-  .recieved-message-text {
-    margin-left: 10px;
-  }
-
-  .chat-messages::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  .chat-messages::-webkit-scrollbar-thumb {
-    background-color: lightgray;
-    border-radius: 10px;
-  }
-
-  .chat-area .chat-text {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
-
-  .chat-area .chat-text input {
-    height: 40px;
-    width: calc(100% - 90px) !important;
-    border: none;
-    padding: 7px 20px;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-  }
-
-  .chat-area .chat-text input::placeholder {
-    color: gray;
-  }
-
-  .chat-area .chat-text .send-btn {
-    background-color: #9E6DE0;
-    padding: 7px 10px;
-    height: 40px;
-    /* width: 80px; */
-    border-radius: 4px;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-  @media only screen and (min-width:1900px) {
-    .chat-area .chat-text input {
-      font-size: 20px;
-
-    }
-
-    .chat-area .chat-text .send-btn {
-      font-size: 20px
-    }
-  }
+#textarea:focus {
+    border: 1px solid black;
+}
